@@ -1,0 +1,13 @@
+,index,v3,v4
+0,Universe,Current-2026 tickers (survivorship bias),"Jan-2016 NIFTY 500, evolving (delisted retained)"
+1,Sample,2021–2026,2016–2021 train / 2022–2026 OOS
+2,Sector RS,Pool-subset proxy,**Real NIFTY sector indices**
+3,Market RS,Equal-weight pool,**NIFTY 500 index**
+4,Factor Weighting,IC weights (regime-blended),**Regime-aware + ADX-gated** weighting
+5,HMM Emissions,Gaussian HMM (4-state),**Student-t HMM** (fat-tail robust)
+6,HMM Transitions,Fixed transition matrix,**TVTP** — VIX-conditioned transitions
+7,Horizon,21 days,**10 days (2 weeks)**
+8,IC Computation,Hard-label IC averaging,**Posterior-weighted (soft-label) IC**
+9,IC Significance,t-stat only,**One-sample t-test** significance
+10,Diagnostics,None,**ADF/KPSS/correlation/VIF**
+11,Benchmarks,NIFTY 50,**NIFTY 500 + NIFTY 50 + S&P 500**

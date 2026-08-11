@@ -1,0 +1,13 @@
+,Family,Mean_IC,t_stat,p_value,Signif
+neg_vol_63,Low-Vol,0.0491,3.46,0.0007,✓ sig
+neg_downside_vol,Low-Vol,0.0425,3.36,0.001,✓ sig
+mom_6m_skip,Momentum,0.0384,3.51,0.0006,✓ sig
+vol_of_vol,Quality,0.0343,3.87,0.0002,✓ sig
+ret_stability,Quality,0.0333,2.3,0.0227,✓ sig
+neg_zscore_200ma,Mean-Reversion,-0.0241,-2.09,0.0383,✓ sig
+short_reversal_5d,Mean-Reversion,0.0224,2.65,0.009,✓ sig
+sector_rel_strength,Relative-Str,-0.0193,-2.14,0.0342,✓ sig
+neg_amihud,Liquidity,0.017,1.69,0.0927,  ns
+log_adv,Liquidity,0.0115,1.19,0.2365,  ns
+mom_3m,Momentum,0.0102,0.93,0.3535,  ns
+mom_1m,Momentum,-0.0094,-0.97,0.335,  ns

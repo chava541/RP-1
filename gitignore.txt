@@ -1,0 +1,63 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+*.so
+.pytest_cache/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ── Local caches produced by the pipeline (DO NOT COMMIT) ────────────────────
+yf_cache/
+delisted_overlay/
+v6_outputs/*.csv
+v6_outputs/*.png
+v6_outputs/*.pkl
+!v6_outputs/.gitkeep
+
+# ── Large raw data — check-in only the small membership snapshots ────────────
+data/raw/
+data/prices/
+*.parquet
+*.feather
+*.pickle
+*.h5
+
+# ── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ── Sensitive ────────────────────────────────────────────────────────────────
+.env
+.env.local
+*.key
+credentials.json
+
+# ── LaTeX / draft-paper artefacts (in case the paper lives in the same repo) ─
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+
+# ── The point-in-time fundamentals file, if it ever arrives ──────────────────
+value_pit_india.csv

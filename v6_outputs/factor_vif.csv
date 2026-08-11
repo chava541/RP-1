@@ -1,0 +1,14 @@
+,Factor,VIF,In_Active_Set
+11,mkt_rel_strength,14.280655552480397,False
+12,sector_rel_strength,9.048603761422708,True
+0,mom_1m,7.178561790292778,True
+5,neg_vol_63,4.112057212285948,True
+6,neg_downside_vol,3.0373919121645545,True
+3,vol_of_vol,2.6672198330688848,True
+1,mom_3m,2.263124742170716,True
+9,neg_zscore_200ma,2.2451377328945075,True
+2,mom_6m_skip,1.5734607891639312,True
+4,ret_stability,1.399132719969949,True
+10,short_reversal_5d,1.233984948752799,True
+7,log_adv,1.0636838571636753,True
+8,neg_amihud,1.0110144671945485,True

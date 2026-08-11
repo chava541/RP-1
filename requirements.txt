@@ -1,0 +1,25 @@
+# ── Core scientific stack ────────────────────────────────────────────────────
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn>=1.3,<2.0
+lightgbm>=4.0,<5.0
+
+# ── Statistical modelling ────────────────────────────────────────────────────
+statsmodels>=0.14,<1.0
+hmmlearn>=0.3,<1.0
+
+# ── Market data & technical analysis ─────────────────────────────────────────
+yfinance>=0.2.40,<1.0
+ta>=0.11,<1.0
+
+# ── Notebook & utilities ─────────────────────────────────────────────────────
+jupyterlab>=4.0
+ipykernel>=6.0
+nbformat>=5.9
+openpyxl>=3.1        # reads the NIFTY-500 inclusion/exclusion .xlsx log
+tqdm>=4.66
